@@ -7,3 +7,7 @@ even_or_odd(0);
 //opposite number
 const opposite = n => -n;
 opposite(2)
+
+//number to String
+const numberToString = n => n.toString();
+numberToString(2);
