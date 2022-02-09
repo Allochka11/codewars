@@ -5,4 +5,6 @@ function fakeBin(x){
         if(x[i] < '5') tmp += '0';
     }
     return tmp;
+
+    //or  return x.split('').map(n => n < 5 ? 0 : 1).join('')
 }
