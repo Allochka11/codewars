@@ -11,3 +11,7 @@ function greet(name){
 }
 
 const booleanToString = (b) => String(b);
+
+function invert(array) {
+    return array.map(i => 0 - i);
+}
