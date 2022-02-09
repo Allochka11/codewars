@@ -7,3 +7,9 @@ const reverseSeq = n => {
 };
 
 //num 4 => [4,3,2,1]
+
+function DNAtoRNA(dna) {
+    return dna.replace(/t/gi, 'u').toUpperCase();
+}
+
+console.log(DNAtoRNA("GACCGCCGCC"));
