@@ -9,3 +9,5 @@ function maps(x){
 function greet(name){
     return "Hello, " + (name === "Johnny" ? "my love" : name) + "!";
 }
+
+const booleanToString = (b) => String(b);
