@@ -5,3 +5,7 @@ function findNeedle(haystack) {
 function maps(x){
     return x.map((n) => n*2)
 }
+
+function greet(name){
+    return "Hello, " + (name === "Johnny" ? "my love" : name) + "!";
+}
